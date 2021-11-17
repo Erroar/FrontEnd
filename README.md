@@ -36,8 +36,8 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.oatly.com/sv-se 
-
+https://www.paradiso.nl/en/
+ 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">

@@ -80,13 +80,7 @@ In deze periode heb ik het coderen goed weten te opfrissen. Ik heb ook fanatiek 
  
 Aantal problemen: 
  - Hoe plaats ik allerlei kleine individuele stukjes tekst die niet perse een li zijn. 
- - Is dit semantisch correct in de agenda:
- 
- <h3> Wo 17 nov </h3>
-                  <ol> 
-                    <li><p> <a href=""> Oh Wonder </a> verplaatst naar <time> 1 april 2022 </time> Uitgesteld  </li>
-                      <li> <p> <a href=""> Matthew Halsall, Alab...  </a> onderdeel van Super-Son... nieuwe locatie </p> </li>
-                    <li> <p> <a href=""> Matthew Halsall Alab... </a> Onderdeel van Super-Son...</p></li>
+ - Ik vraag me hierbij op aangesloten af of ik mijn agenda correct heb benoemend (aangezien dit veel kleine stukjes tekst zijn). 
 - zijn knoppen voor navigatie voor goed gestijlde links? 
 
 <a href="https://codepen.io/ninavaneijk/pen/yLodzRY"> Hier klikken voor het begin van mijn HTML code voor de Paradiso website </a> 

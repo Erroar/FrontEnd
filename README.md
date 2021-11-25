@@ -76,8 +76,20 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In deze periode heb ik het coderen goed weten te opfrissen. Ik heb ook fanatiek meegedaan met de opdrachten. Wat minder goed gaat is het feit dat ik hierdoor amper tijd heb besteed aan mijn eigen website, mijn HTML code is hierdoor nog erg mager. Daarnaast vind ik het soms lastig om semantisch correct elementen te labelen in HTML. Ik denk echter dat de website helemaal goed gaat komen. Aangezien ik door de oefeningen merk dat het best prima gaat met programmeren. 
+ 
+Aantal problemen: 
+ - Hoe plaats ik allerlei kleine individuele stukjes tekst die niet perse een li zijn. 
+ - Is dit semantisch correct in de agenda:
+ 
+ <h3> Wo 17 nov </h3>
+                  <ol> 
+                    <li><p> <a href=""> Oh Wonder </a> verplaatst naar <time> 1 april 2022 </time> Uitgesteld  </li>
+                      <li> <p> <a href=""> Matthew Halsall, Alab...  </a> onderdeel van Super-Son... nieuwe locatie </p> </li>
+                    <li> <p> <a href=""> Matthew Halsall Alab... </a> Onderdeel van Super-Son...</p></li>
+- zijn knoppen voor navigatie voor goed gestijlde links? 
 
+<a href="https://codepen.io/ninavaneijk/pen/yLodzRY"> Hier klikken voor het begin van mijn HTML code voor de Paradiso website </a> 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -90,12 +102,8 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+                   
+Ik kon helaas niet aanwezig zijn bij de meeting, maar ik zal de studentassistenten om hulp en feedback vragen. 
 
 </details>
 

@@ -62,7 +62,7 @@ hier de naam van de pagina
 <img src="images/htmlAnalyseMenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<p> Ik weet niet of dit een dynamisch deel is, maar ik wil ieder geval graag de animatie dat als men hoverd over een plaatje, dat het plaatje dan groter wordt, als dit te mager is kan ik eventueel nog de filters toepassen die je onderin ziet bij de breakdownschets van de gehele pagina</p>
 
 </details>
 
@@ -76,7 +76,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-In deze periode heb ik het coderen goed weten te opfrissen. Ik heb ook fanatiek meegedaan met de opdrachten. Wat minder goed gaat is het feit dat ik hierdoor amper tijd heb besteed aan mijn eigen website, mijn HTML code is hierdoor nog erg mager. Daarnaast vind ik het soms lastig om semantisch correct elementen te labelen in HTML. Ik denk echter dat de website helemaal goed gaat komen. Aangezien ik door de oefeningen merk dat het best prima gaat met programmeren. 
+<p> In deze periode heb ik het coderen goed weten te opfrissen. Ik heb ook fanatiek meegedaan met de opdrachten. Wat minder goed gaat is het feit dat ik hierdoor amper tijd heb besteed aan mijn eigen website, mijn HTML code is hierdoor nog erg mager. Daarnaast vind ik het soms lastig om semantisch correct elementen te labelen in HTML. Ik denk echter dat de website helemaal goed gaat komen. Aangezien ik door de oefeningen merk dat het best prima gaat met programmeren. 
  
 Aantal problemen: 
  - Hoe plaats ik allerlei kleine individuele stukjes tekst die niet perse een li zijn. 
@@ -97,7 +97,8 @@ samen met je groepje opstellen
 
 ### Verslag van meeting
                    
-Ik kon helaas niet aanwezig zijn bij de meeting, maar ik zal de studentassistenten om hulp en feedback vragen. 
+Ik kon helaas niet aanwezig zijn bij de meeting, maar ik zal de studentassistenten om hulp en feedback vragen.
+ </p>
 
 </details>
 

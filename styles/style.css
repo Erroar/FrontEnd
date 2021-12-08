@@ -1,5 +1,207 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+:root {
+  --background: #3399cc;
+  --backgroundDark: #0099cc; 
+  --selected: #006699; 
+
+  --firstColorIndie: #ffcc33; 
+
+  --white: #ffffff; 
+  --secondFontColor: #99ccff; 
+
+  --kopEen: 136px; 
+  --programmaitem: 28px; 
+  --agendakop: 30px; 
+  --agenditem: 16px; 
+  --filternavigatie: 13px; 
+
 }
+*, *::after, *::before {
+  margin: 0px; 
+}
+
+main, header {
+  background-color: var(--background); 
+  box-sizing: border-box;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px; 
+  border: 0px; 
+  padding: 0px; 
+  width: 100%;
+
+}
+
+body, a, button {
+  color: var(--white); 
+  text-decoration: none;
+}
+
+
+/* koppen */ 
+
+h1, h2 { 
+  font-family: /*hier moet neue helvetica nog komen */ ;
+  font-size: var(--kopEen);
+  font-weight: bold; 
+  padding: 0px 15px 0px 10px; 
+  border: 0px; 
+  background-color: var(--background); 
+  margin: 0px; 
+}
+
+
+/*eerste img blokken met tekst erin */ 
+
+section>article{
+  position: relative;
+  
+}
+
+img {
+  max-width: 325px;
+  max-height: 700px;
+  padding: 0px 0px 5px 20px; 
+  right: 10px; 
+  left: 10px; 
+}
+
+ul {
+  list-style: none;
+  background-color: none;
+  font-size: var(--programmaitem);
+  position: absolute; 
+  max-width: 310px;
+  bottom: 15px; 
+}
+
+
+
+/* -----style kopjes van de agenda------------------------- */ 
+h3 { 
+  font-weight: bold;
+  font-size: var(--agendakop); 
+  color: var(--secondFontColor);  
+  margin: 25px 0px 0px; 
+  padding: 0px 15px; 
+}
+
+
+/*------stijl van de agenda zelf --------------------*/ 
+
+ol {
+  list-style-type: none;
+  font-size: var(--agenditem);  
+  padding: 0px; 
+
+}
+
+ol>li {
+  border: solid; 
+  border-width: 0px 0px 2px 0px;
+  border-color: var(--secondFontColor);
+
+
+}
+
+ol>li:last-of-type {
+  border: none;
+}
+
+p {
+  padding: 10px 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+p>a {
+  font-weight: bold;
+}
+
+section:nth-of-type(2) article:first-of-type, section:nth-of-type(2) article:nth-of-type(2) {
+  /* ??? */ 
+}
+
+
+
+/* navigatie programma */ 
+
+nav:nth-of-type(2) {
+  background-color: var(--backgroundDark);
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+nav>a {
+  background-color: var(--backgroundDark); 
+  font-size: var(--filternavigatie);
+  font-weight: bold;
+  padding: 5px;
+
+
+}
+
+/* ---------styling van de header --------------------*/ 
+
+header>nav {
+  padding: 20px; 
+  background-color: red;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  top: 0px; 
+  
+}
+
+header>nav:first-of-type>a:first-of-type {
+  background-color: green; 
+
+  position: absolute;
+  left: 60px;
+  bottom: 5px; 
+}
+
+header>nav:first-of-type>a:nth-of-type(2) {
+  background-color: green;
+
+  position: absolute;
+  right: 30px; 
+  bottom: 5px 
+}
+
+/* op weg naar een werkend hamburger menu met js! */
+
+button {
+  background-color: yellow; 
+  font-weight: bold; 
+  padding: 5px; 
+
+  position: absolute; 
+  left: 5px; 
+  bottom: 5px; 
+
+  border: none; 
+  cursor: pointer; 
+}
+
+div {
+  background-color: purple; 
+  display: flex; 
+  flex-direction: column;
+  position: fixed; 
+  top: 0px; 
+  right: 0px; 
+  left: 0px; 
+
+  transform:translateY(-100%);
+  transition: 0.5s; 
+}
+
+div.hamburgerOpen {
+  transform:translateY(0%); 
+  z-index: 3;
+}
+
 

@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Nina van Eijk
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Blauw (Dit kan nog veranderen als ik de slag te pakken heb)
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-Responsive 
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.paradiso.nl/en/
- 
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/ParadisoHomeScreenshot.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/ParadisoIndieScreenshot.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,13 +56,13 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/htmlAnalyseHome.png" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/htmlAnalyseMenu.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<p> Ik weet niet of dit een dynamisch deel is, maar ik wil ieder geval graag de animatie dat als men hoverd over een plaatje, dat het plaatje dan groter wordt, als dit te mager is kan ik eventueel nog de filters toepassen die je onderin ziet bij de breakdownschets van de gehele pagina</p>
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -76,14 +76,8 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-<p> In deze periode heb ik het coderen goed weten te opfrissen. Ik heb ook fanatiek meegedaan met de opdrachten. Wat minder goed gaat is het feit dat ik hierdoor amper tijd heb besteed aan mijn eigen website, mijn HTML code is hierdoor nog erg mager. Daarnaast vind ik het soms lastig om semantisch correct elementen te labelen in HTML. Ik denk echter dat de website helemaal goed gaat komen. Aangezien ik door de oefeningen merk dat het best prima gaat met programmeren. 
- 
-Aantal problemen: 
- - Hoe plaats ik allerlei kleine individuele stukjes tekst die niet perse een li zijn. 
- - Ik vraag me hierbij op aangesloten af of ik mijn agenda correct heb benoemend (aangezien dit veel kleine stukjes tekst zijn). 
-- zijn knoppen voor navigatie voor goed gestijlde links? 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-<a href="https://codepen.io/ninavaneijk/pen/yLodzRY"> Hier klikken voor het begin van mijn HTML code voor de Paradiso website </a> 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -96,9 +90,12 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-                   
-Ik kon helaas niet aanwezig zijn bij de meeting, maar ik zal de studentassistenten om hulp en feedback vragen.
- </p>
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1
+- punt 2
+- nog een punt
+- ...
 
 </details>
 

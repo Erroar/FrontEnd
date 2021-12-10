@@ -5,7 +5,7 @@
 var menuButton = document.querySelector("button");
 
 function naarBenee(){
-    let menu = document.querySelector("div");
+    let menu = document.querySelector("div:first-of-type");
     menu.classList.toggle("hamburgerOpen");
 }
 

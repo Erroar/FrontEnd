@@ -1,0 +1,232 @@
+/* CSS Document */
+:root {
+  --background: #3399cc;
+  --backgroundDark: #0099cc; 
+  --selected: #006699; 
+
+  --firstColorIndie: #ffcc33; 
+
+  --black: #000000; 
+  --white: #ffffff; 
+  --transparent: rgb(0, 0, 0, 0); 
+  --secondFontColor: #99ccff; 
+
+  --kopEen: 136px; 
+  --programmaitem: 28px; 
+  --agendakop: 30px; 
+  --agenditem: 16px; 
+  --filternavigatie: 13px; 
+
+  --kopEenIndie: 50px; 
+  --kopTweeIndie: 28px; 
+  --pindie: 16px; 
+  --fotoTekstIndie: 25px; 
+
+}
+*, *::after, *::before {
+  margin: 0px; 
+}
+
+main, header {
+  background-color: var(--background); 
+  box-sizing: border-box;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px; 
+  border: 0px; 
+  padding: 0px; 
+  width: 100%;
+  overflow: hidden; 
+}
+
+body, a, button {
+  color: var(--white); 
+  text-decoration: none;
+}
+
+
+/* koppen */ 
+
+h1, h2 { 
+  font-size: var(--kopEen);
+  font-weight: bold; 
+  padding: 0px 0px 0px 10px; 
+  border: 0px; 
+  margin: 0px; 
+  color: white; 
+}
+
+h1 {
+  background-color: var(--transparent);
+  position: relative;
+  margin: 0px 0px -60px 0px;  
+  z-index: 10;
+}
+
+section {
+  margin: 0px; 
+  padding: 0px; 
+}
+
+
+/*eerste img blokken met tekst erin */ 
+
+section>article{
+  position: relative;
+  top: 0px; 
+}
+
+img {
+  max-width: 90%;
+  max-height: 700px;
+  padding: 0px 0px 5px 20px; 
+  right: 10px; 
+  left: 10px; 
+}
+
+ul {
+  list-style: none;
+  background-color: none;
+  font-size: var(--programmaitem);
+  position: absolute; 
+  max-width: 310px;
+  bottom: 15px; 
+}
+
+
+
+/* -----style kopjes van de agenda------------------------- */ 
+h3 { 
+  font-weight: bold;
+  font-size: var(--agendakop); 
+  color: var(--secondFontColor);  
+  margin: 25px 0px 0px; 
+  padding: 0px 15px; 
+}
+
+
+/*------stijl van de agenda zelf --------------------*/ 
+
+h2 {
+  margin: 40px 0px 10px 0px; 
+}
+
+ol {
+  list-style-type: none;
+  font-size: var(--agenditem);  
+  padding: 0px; 
+
+}
+
+ol>li {
+  border: solid; 
+  border-width: 0px 0px 2px 0px;
+  border-color: var(--secondFontColor);
+}
+
+ol>li:last-of-type {
+  border: none;
+}
+
+p {
+  padding: 10px 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+p>a {
+  font-weight: bold;
+}
+
+/* navigatie programma */ 
+
+section:nth-of-type(2)>nav {
+  background-color: pink;
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+
+}
+
+section:nth-of-type(2)>nav>a {
+  background-color: var(--backgroundDark); 
+  font-size: var(--filternavigatie);
+  font-weight: bold;
+  text-align: center;
+  width: 100%; 
+  padding: 20px 0px 20px 0px; 
+}
+
+section:nth-of-type(2)>nav>a:first-of-type {
+  background-color: var(--selected);
+}
+
+
+/* ---------styling van de header --------------------*/ 
+
+header>nav {
+  padding: 20px; 
+  background-color: red;
+  position: relative;
+  padding: 20px 10px; 
+
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  top: 0px; 
+}
+
+header>nav>a, header>nav>button {
+  bottom: 20%; 
+}
+
+header>nav:first-of-type>a:first-of-type {
+  background-color: green; 
+
+  position: absolute;
+  left: 70px;
+  bottom: 20%; 
+}
+
+ header>nav:first-of-type>a:nth-of-type(2) {
+  background-color: green;
+
+  position: absolute;
+  right: 28px; 
+  bottom: 20%;  
+}
+
+
+/* op weg naar een werkend hamburger menu met js! */
+
+header>nav>button {
+  background-color: var(--background); 
+  font-size: var(--agenditem);
+  font-weight: bold; 
+
+  position: absolute; 
+  left: 5px; 
+  bottom: 9px; 
+  padding: 0px; 
+
+  border: none; 
+  cursor: pointer; 
+}
+
+div:first-of-type {
+  background-color: purple; 
+  display: flex; 
+  flex-direction: column;
+  position: fixed; 
+  top: 0px; 
+  right: 0px; 
+  left: 0px; 
+
+  transform:translateY(-100%);
+  transition: 0.5s; 
+}
+
+div:first-of-type.hamburgerOpen {
+  transform:translateY(0%); 
+  z-index: 3;
+}
+

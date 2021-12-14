@@ -1,0 +1,191 @@
+/*--- css voor de indiestad pagina zodat niet alles chaos wordt */
+:root {
+    --background: #3399cc;
+    --backgroundDark: #0099cc; 
+    --selected: #006699; 
+  
+    --firstColorIndie: #ffcc33; 
+  
+    --black: #000000; 
+    --white: #ffffff; 
+    --transparent: rgb(0, 0, 0, 0); 
+    --secondFontColor: #99ccff; 
+  
+    --kopEen: 136px; 
+    --programmaitem: 28px; 
+    --agendakop: 30px; 
+    --agenditem: 16px; 
+    --filternavigatie: 13px; 
+  
+    --kopEenIndie: 50px; 
+    --kopTweeIndie: 28px; 
+    --pIndie: 16px; 
+    --fotoTekstIndie: 25px; 
+  
+  }
+
+/* ------- Indiestad kleur, font en positie ----------------------*/ 
+
+main, article, .indie>article>p, .indieHeader {
+    background-color: var(--white);
+    color: var(--black);
+  }
+  
+  article>h1 {
+    color: var(--firstColorIndie);
+    font-size: var(--kopEenIndie) ;
+    margin: 0px; 
+    padding: 0px 5%; 
+  }
+  
+  .indie>article>h2  {
+    color: var(--firstColorIndie); 
+    font-size: var(--kopTweeIndie);
+    padding: 0px 5%; 
+  
+  }
+  
+  .indie>section>h2 {
+    color: var(--firstColorIndie); 
+    font-size: var(--kopTweeIndie);
+    padding: 0px 5%; 
+  }
+
+  .indie>article>a {
+      padding: 0px 5%;   
+  }
+  
+  /*plaatsing van tekst in de foto's */ 
+
+  .indie>section>ol>li {
+    position: relative; 
+  }
+  
+  .indie>section>ol>li>a>p {
+    font-size: var(--fotoTekstIndie);
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px; 
+    left: 10px; 
+    background-color:var(--transparent);
+  }
+  
+  .indie>section>ol>li>a>p>time {
+    font-size: var(--fotoTekstIndie); 
+    background-color: var(--transparent); 
+    font-weight: normal;
+    display: block;
+  }
+  
+
+  /* plaatsing tekst in foto voor het losse artikel */ 
+
+    .indie>section {
+        border: none; 
+    }
+
+
+  .indie>section>article {
+    position: relative;
+    border: none;
+    padding: 50px 0px; 
+  }
+
+  .indie>section>article>a>p{
+    font-size: var(--fotoTekstIndie);
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px; 
+    left: 10px; 
+    background-color:var(--transparent);
+  }
+
+  .indie>section>article>a>p>time{
+    font-size: var(--fotoTekstIndie); 
+    background-color: var(--transparent); 
+    font-weight: normal;
+    display: block;
+  } 
+
+
+  /* selectie van de plaatjes */
+  .indie>section>ol>li>a>img {
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 400px;
+  }
+  
+  .indie>article>a {
+    color:var(--firstColorIndie); 
+    font-weight: bold;
+  }
+  
+  .indie>article>nav>a>img {
+    max-height: 80px; 
+  }
+  
+  .indie>article>p>a {
+    color: var(--black);
+    font-weight: normal;
+    padding: 0px; 
+    margin: 0px; 
+    text-decoration: underline;
+  }
+
+  .indie>article>a {
+      font-size: var(--pIndie);
+      font-weight: bold;
+      padding-bottom: 50px; 
+      margin-bottom: 50px;
+  }
+
+  /*plaatjes in een slider plaatsen */ 
+
+  .indie>section>ol {
+    display: flex;
+    flex-direction: row;
+    overflow: auto; 
+    gap: 1em; 
+    
+}
+
+
+.indie>section>ol>li {
+   flex-shrink: 0;
+   min-height: 100px;
+   max-width: 500px;
+   border: none; 
+   align-items: flex-end;
+}
+  
+  /*-- indie header ----- */ 
+  
+  .indieHeader>img {
+    min-width: 100%; 
+    padding: 0px; 
+    border: solid; 
+    border-width: 0px 0px 1px 0px ;
+    background-color: white;
+  }
+  
+  
+  .indieHeader>nav:first-of-type   {
+    background-color: var(--white);  
+    padding: 0px; 
+    margin: 0px; 
+
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+  
+  .indieHeader>nav:first-of-type>a {
+    color: var(--firstColorIndie); 
+    grid: none; 
+    padding: 0px; 
+    display: flex;
+    white-space: nowrap; 
+
+    padding: 15px 25px; 
+  }
+  

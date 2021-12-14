@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Nina van Eijk
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw 
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface plane 
  
 </details>
 
@@ -33,7 +33,7 @@ hier je focus (kies uit responsive óf surface plane)
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>https://www.paradiso.nl/nl/ </summary>
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp

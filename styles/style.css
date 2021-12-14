@@ -15,6 +15,33 @@
   --programmaitem: 28px; 
   --agendakop: 30px; 
   --agenditem: 16px; 
+  --agenditem2: 14px; 
+  --filternavigatie: 13px; 
+
+  --kopEenIndie: 50px; 
+  --kopTweeIndie: 28px; 
+  --pindie: 16px; 
+  --fotoTekstIndie: 25px; 
+}
+
+/* -----------Kerst thema!!! -------------------------------------*/ 
+:root.kerst {
+  --background: #DD3C30;
+  --backgroundDark: #BD2F1F; 
+  --selected: #38761D; 
+
+  --firstColorIndie: #ffcc33; 
+
+  --black: #000000; 
+  --white: #ffffff; 
+  --transparent: rgb(0, 0, 0, 0); 
+  --secondFontColor: #F45E44; 
+
+  --kopEen: 136px; 
+  --programmaitem: 28px; 
+  --agendakop: 30px; 
+  --agenditem: 16px; 
+  --agenditem2: 14px; 
   --filternavigatie: 13px; 
 
   --kopEenIndie: 50px; 
@@ -22,13 +49,13 @@
   --pindie: 16px; 
   --fotoTekstIndie: 25px; 
 
-
-
 }
+
 *, *::after, *::before {
   margin: 0px; 
 }
 
+/*----- Eerst wat algemene opmaak ------------------------*/ 
 main, header {
   background-color: var(--background); 
   box-sizing: border-box;  
@@ -54,7 +81,7 @@ h1, h2 {
   padding: 0px 0px 0px 10px; 
   border: 0px; 
   margin: 0px; 
-  color: white; 
+  color: var(--white); 
 }
 
 h1 {
@@ -70,7 +97,7 @@ section {
 }
 
 
-/*eerste img blokken met tekst erin */ 
+/*-----eerste img blokken met tekst erin----------------------- */ 
 
 section>article{
   position: relative;
@@ -95,6 +122,10 @@ ul {
 }
 
 
+
+
+
+/*-------------------AGENDA(PROGRAMMA) DINGEN -------------------------------*/ 
 
 /* -----style kopjes van de agenda------------------------- */ 
 h3 { 
@@ -123,6 +154,7 @@ ol>li {
   border: solid; 
   border-width: 0px 0px 2px 0px;
   border-color: var(--secondFontColor);
+  position: relative;;
 }
 
 ol>li:last-of-type {
@@ -136,13 +168,30 @@ p {
 }
 
 p>a {
+  font-size: var(--agenditem);
   font-weight: bold;
 }
 
-/* navigatie programma */ 
+ol>li>p:first-of-type {
+  font-size: var(--agenditem2);
+  color: var(--secondFontColor); 
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+ol>li>p:nth-of-type(2) {
+ font-size: var(--agenditem2);
+  color: var(--secondFontColor); 
+  display: inline; 
+  position: absolute; 
+  right: -5px; 
+  top: 0px; 
+}
+
+
+/*---------------- navigatie agenda ------------------------------------------------------ */ 
 
 section:nth-of-type(2)>nav {
-  background-color: pink;
   width: 100%;
   display: flex; 
   flex-direction: row;
@@ -163,11 +212,14 @@ section:nth-of-type(2)>nav>a:first-of-type {
 }
 
 
-/* ---------styling van de header --------------------*/ 
+
+
+
+
+/* ---------  HEADER EN NAVIGATIE STYLING --------------------*/ 
 
 header>nav {
   padding: 20px; 
-  /*background-color: red;*/
   position: relative;
   padding: 20px 10px; 
 
@@ -182,40 +234,42 @@ header>nav>a, header>nav>button {
 }
 
 header>nav:first-of-type>a:first-of-type {
-  /*background-color: green; */
-
   position: absolute;
-  left: 60px;
+  left: 100px;
   bottom: 20%; 
 }
 
-header>nav:first-of-type>a:nth-of-type(2) {
-  /*background-color: green;*/
-
+ header>nav:first-of-type>section {
   position: absolute;
-  right: 30px; 
+  right: 28px; 
   bottom: 20%;  
 }
 
-/* op weg naar een werkend hamburger menu met js! */
 
-button {
-  /*background-color: yellow;*/
+/* ---------------Uitklappend hamburgermenu-------------- */
+
+header>nav>button {
   background-color: var(--background); 
   font-size: var(--agenditem);
   font-weight: bold; 
 
   position: absolute; 
-  left: 5px; 
-  bottom: 5px; 
+  z-index: 200;
+  left: 40px; 
+  bottom: 9px; 
   padding: 0px; 
 
   border: none; 
   cursor: pointer; 
 }
 
+div:first-of-type>a {
+  color: var(--black);
+}
+
 div:first-of-type {
-  background-color: purple; 
+  background-color: var(--white); 
+  color: var(--black); 
   display: flex; 
   flex-direction: column;
   position: fixed; 
@@ -229,110 +283,110 @@ div:first-of-type {
 
 div:first-of-type.hamburgerOpen {
   transform:translateY(0%); 
-  z-index: 3;
-}
+  z-index: 50;
 
-/* ------- Indiestad kleur, font en positie ----------------------*/ 
-
-.indie, .indie>article, .indie>article>p, .indieHeader {
-  background-color: lightblue;
-  color: var(--black);
-}
-
-.indie>article>h1 {
-  color: var(--firstColorIndie);
-  font-size: var(--kopEenIndie) ;
-  margin: 0px; 
-}
-
-.indie>article>h2  {
-  color: var(--firstColorIndie); 
-  font-size: var(--kopTweeIndie);
-  
-
-}
-
-.indie>section>h2 {
-  color: var(--firstColorIndie); 
-  font-size: var(--kopTweeIndie);
-}
-
-/*plaatsing van de sliders */ 
-
-.indie>section>ol>li {
-  position: relative;
-}
-
-.indie>section>ol>li>a>p {
-  font-size: var(--fotoTekstIndie);
-  font-weight: bold;
-  position: absolute;
-  bottom: 10px;
-  left: 20px; 
-  background-color:var(--transparent);
-}
-
-.indie>section>ol>li>a>p>time {
-  font-size: var(--fotoTekstIndie); 
-  font-weight: normal;
-  position: absolute;
-  bottom: 70px;
-  left: 20px; 
-  background-color: var(--tra)
-}
-
-/* selectie van de plaatjes */
-.indie>section>ol>li>a>img {
-  max-width: 90%;
-}
-
-.indie>article>a {
-  color:var(--firstColorIndie); 
-  font-weight: bold;
-}
-
-.indie>article>nav>a>img {
-  max-height: 45px; 
-  max-width: 45px;
-}
-
-.indie>article>p>a {
-  color: var(--black);
-  font-weight: normal;
-  padding: 0px; 
-  margin: 0px; 
-  text-decoration: underline;
-}
-
-/*-- indie header ----- */ 
-
-.indieHeader>img {
-  min-width: 100%; 
-  padding: 0px; 
-  border: solid; 
-  border-width: 0px 0px 1px 0px ;
-  background-color: white;
-}
-
-.indieHeader {
-  padding: 0px; 
-  margin: 0px; 
-
-}
-
-.indieHeader>nav   {
-  background-color: red; 
-  display: flex;
-  flex-direction: row;
-  padding: 0px; 
-  margin: 0px;
-  z-index: 6; 
-}
-
-.indieHeader>nav>a {
   color: var(--black); 
-  grid: none; 
-  padding: 0px; 
-  margin: 0px;
+  padding: 50px 20px 20px 20px; 
+  font-size: var(--agendakop);
+}
 
+/*hamburger knop zelf */ 
+
+button>span {
+	display:block;
+	width:50%;
+	height:2px;
+	background-color: var(--black); 
+  margin-top: 6px; 
+	margin-left: -30px;
+	position:absolute;
+	
+	transition:.3s;
+}
+
+button>span:nth-of-type(1) {
+	transform:translatey(-5px);
+}
+
+button>span:nth-of-type(2) {
+}
+
+button>span:nth-of-type(3) {
+	transform:translatey(5px);
+}
+
+/* toegevoegde classes als het menu open is */ 
+
+nav.kruis>button>span:nth-of-type(1) {
+	transform:rotate(45deg);
+}
+
+nav.kruis>button>span:nth-of-type(2) {
+  opacity: 0; 
+}
+
+nav.kruis>button>span:nth-of-type(3) {
+	transform:rotate(-45deg); 
+}
+
+header>nav.kruis>button {
+  background-color: var(--white);
+  color: var(--black); 
+  
+  transition: 0.2s; 
+}
+
+
+
+
+/*------------ STATESs -----------------------------*/ 
+/* Buttons */ 
+ nav:first-of-type>a:hover, nav>section>label:hover {
+  background-color: var(--selected);
+  box-shadow: 1px 1px 1px var(--white);
+}
+
+nav:first-of-type>a:hover, nav>section>label:hover {
+  background-color: var(--selected);
+
+}
+
+nav:first-of-type>a:focus, nav>section>label:focus {
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
+
+}
+
+/* Linkjes states*/ 
+
+ol>li>p>a:hover {
+  font-size: var(--fotoTekstIndie);
+  transition: 0.3s; 
+}
+
+ol>li>p>a:active {
+  font: var(--fotoTekstIndie);
+  color: var(--secondFontColor); 
+}
+
+a>li>p>a:focus{
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
+  font-size: var(--fotoTekstIndie);
+  transition: 0.3s; 
+}
+
+/*tekst in foto's states */ 
+
+ul>li>a:hover {
+  font-size: var(--agendakop);
+}
+
+ul>li>a:focus {
+  color: var(--selected)
+}
+
+ul>li>a:focus {
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
 }

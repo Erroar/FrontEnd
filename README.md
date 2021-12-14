@@ -206,7 +206,8 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
  Hier is de Indiestad pagina: 
  
  <img scr="images/finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina">
- <img scr="finalScreenshotIndiestad.png"
+ <img scr="finalScreenshotIndiestad.png">
+ <img scr="./images/finalScreenshotIndiestad.png">
  
  Hier is de extra toegankelijke pagina: 
  

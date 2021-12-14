@@ -236,11 +236,11 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
  
  Hier is de Indiestad pagina: 
  
- <img scr="images/finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina"
+ <img scr="images/finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina">
  
  Hier is de extra toegankelijke pagina: 
  
-<img src="images/finalScreenshotParadisoToegang.png" alt="screenshot van de frontend van de extra toegankelijke Paradiso "
+<img src="images/finalScreenshotParadisoToegang.png" alt="screenshot van de frontend van de extra toegankelijke Paradiso">
  
 
 </details>

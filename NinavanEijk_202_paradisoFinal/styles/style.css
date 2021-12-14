@@ -1,0 +1,392 @@
+/* CSS Document */
+:root {
+  --background: #3399cc;
+  --backgroundDark: #0099cc; 
+  --selected: #006699; 
+
+  --firstColorIndie: #ffcc33; 
+
+  --black: #000000; 
+  --white: #ffffff; 
+  --transparent: rgb(0, 0, 0, 0); 
+  --secondFontColor: #99ccff; 
+
+  --kopEen: 136px; 
+  --programmaitem: 28px; 
+  --agendakop: 30px; 
+  --agenditem: 16px; 
+  --agenditem2: 14px; 
+  --filternavigatie: 13px; 
+
+  --kopEenIndie: 50px; 
+  --kopTweeIndie: 28px; 
+  --pindie: 16px; 
+  --fotoTekstIndie: 25px; 
+}
+
+/* -----------Kerst thema!!! -------------------------------------*/ 
+:root.kerst {
+  --background: #DD3C30;
+  --backgroundDark: #BD2F1F; 
+  --selected: #38761D; 
+
+  --firstColorIndie: #ffcc33; 
+
+  --black: #000000; 
+  --white: #ffffff; 
+  --transparent: rgb(0, 0, 0, 0); 
+  --secondFontColor: #F45E44; 
+
+  --kopEen: 136px; 
+  --programmaitem: 28px; 
+  --agendakop: 30px; 
+  --agenditem: 16px; 
+  --agenditem2: 14px; 
+  --filternavigatie: 13px; 
+
+  --kopEenIndie: 50px; 
+  --kopTweeIndie: 28px; 
+  --pindie: 16px; 
+  --fotoTekstIndie: 25px; 
+
+}
+
+*, *::after, *::before {
+  margin: 0px; 
+}
+
+/*----- Eerst wat algemene opmaak ------------------------*/ 
+main, header {
+  background-color: var(--background); 
+  box-sizing: border-box;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px; 
+  border: 0px; 
+  padding: 0px; 
+  width: 100%;
+  overflow: hidden; 
+}
+
+body, a, button {
+  color: var(--white); 
+  text-decoration: none;
+}
+
+
+/* koppen */ 
+
+h1, h2 { 
+  font-size: var(--kopEen);
+  font-weight: bold; 
+  padding: 0px 0px 0px 10px; 
+  border: 0px; 
+  margin: 0px; 
+  color: var(--white); 
+}
+
+h1 {
+  background-color: var(--transparent);
+  position: relative;
+  margin: 0px 0px -60px 0px;  
+  z-index: 10;
+}
+
+section {
+  margin: 0px; 
+  padding: 0px; 
+}
+
+
+/*-----eerste img blokken met tekst erin----------------------- */ 
+
+section>article{
+  position: relative;
+  top: 0px; 
+}
+
+img {
+  max-width: 90%;
+  max-height: 700px;
+  padding: 0px 0px 5px 20px; 
+  right: 10px; 
+  left: 10px; 
+}
+
+ul {
+  list-style: none;
+  background-color: none;
+  font-size: var(--programmaitem);
+  position: absolute; 
+  max-width: 310px;
+  bottom: 15px; 
+}
+
+
+
+
+
+/*-------------------AGENDA(PROGRAMMA) DINGEN -------------------------------*/ 
+
+/* -----style kopjes van de agenda------------------------- */ 
+h3 { 
+  font-weight: bold;
+  font-size: var(--agendakop); 
+  color: var(--secondFontColor);  
+  margin: 25px 0px 0px; 
+  padding: 0px 15px; 
+}
+
+
+/*------stijl van de agenda zelf --------------------*/ 
+
+h2 {
+  margin: 40px 0px 10px 0px; 
+}
+
+ol {
+  list-style-type: none;
+  font-size: var(--agenditem);  
+  padding: 0px; 
+
+}
+
+ol>li {
+  border: solid; 
+  border-width: 0px 0px 2px 0px;
+  border-color: var(--secondFontColor);
+  position: relative;;
+}
+
+ol>li:last-of-type {
+  border: none;
+}
+
+p {
+  padding: 10px 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+p>a {
+  font-size: var(--agenditem);
+  font-weight: bold;
+}
+
+ol>li>p:first-of-type {
+  font-size: var(--agenditem2);
+  color: var(--secondFontColor); 
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+ol>li>p:nth-of-type(2) {
+ font-size: var(--agenditem2);
+  color: var(--secondFontColor); 
+  display: inline; 
+  position: absolute; 
+  right: -5px; 
+  top: 0px; 
+}
+
+
+/*---------------- navigatie agenda ------------------------------------------------------ */ 
+
+section:nth-of-type(2)>nav {
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+
+}
+
+section:nth-of-type(2)>nav>a {
+  background-color: var(--backgroundDark); 
+  font-size: var(--filternavigatie);
+  font-weight: bold;
+  text-align: center;
+  width: 100%; 
+  padding: 20px 0px 20px 0px; 
+}
+
+section:nth-of-type(2)>nav>a:first-of-type {
+  background-color: var(--selected);
+}
+
+
+
+
+
+
+/* ---------  HEADER EN NAVIGATIE STYLING --------------------*/ 
+
+header>nav {
+  padding: 20px; 
+  position: relative;
+  padding: 20px 10px; 
+
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  top: 0px; 
+}
+
+header>nav>a, header>nav>button {
+  bottom: 20%; 
+}
+
+header>nav:first-of-type>a:first-of-type {
+  position: absolute;
+  left: 100px;
+  bottom: 20%; 
+}
+
+ header>nav:first-of-type>section {
+  position: absolute;
+  right: 28px; 
+  bottom: 20%;  
+}
+
+
+/* ---------------Uitklappend hamburgermenu-------------- */
+
+header>nav>button {
+  background-color: var(--background); 
+  font-size: var(--agenditem);
+  font-weight: bold; 
+
+  position: absolute; 
+  z-index: 200;
+  left: 40px; 
+  bottom: 9px; 
+  padding: 0px; 
+
+  border: none; 
+  cursor: pointer; 
+}
+
+div:first-of-type>a {
+  color: var(--black);
+}
+
+div:first-of-type {
+  background-color: var(--white); 
+  color: var(--black); 
+  display: flex; 
+  flex-direction: column;
+  position: fixed; 
+  top: 0px; 
+  right: 0px; 
+  left: 0px; 
+
+  transform:translateY(-100%);
+  transition: 0.5s; 
+}
+
+div:first-of-type.hamburgerOpen {
+  transform:translateY(0%); 
+  z-index: 50;
+
+  color: var(--black); 
+  padding: 50px 20px 20px 20px; 
+  font-size: var(--agendakop);
+}
+
+/*hamburger knop zelf */ 
+
+button>span {
+	display:block;
+	width:50%;
+	height:2px;
+	background-color: var(--black); 
+  margin-top: 6px; 
+	margin-left: -30px;
+	position:absolute;
+	
+	transition:.3s;
+}
+
+button>span:nth-of-type(1) {
+	transform:translatey(-5px);
+}
+
+button>span:nth-of-type(2) {
+}
+
+button>span:nth-of-type(3) {
+	transform:translatey(5px);
+}
+
+/* toegevoegde classes als het menu open is */ 
+
+nav.kruis>button>span:nth-of-type(1) {
+	transform:rotate(45deg);
+}
+
+nav.kruis>button>span:nth-of-type(2) {
+  opacity: 0; 
+}
+
+nav.kruis>button>span:nth-of-type(3) {
+	transform:rotate(-45deg); 
+}
+
+header>nav.kruis>button {
+  background-color: var(--white);
+  color: var(--black); 
+  
+  transition: 0.2s; 
+}
+
+
+
+
+/*------------ STATESs -----------------------------*/ 
+/* Buttons */ 
+ nav:first-of-type>a:hover, nav>section>label:hover {
+  background-color: var(--selected);
+  box-shadow: 1px 1px 1px var(--white);
+}
+
+nav:first-of-type>a:hover, nav>section>label:hover {
+  background-color: var(--selected);
+
+}
+
+nav:first-of-type>a:focus, nav>section>label:focus {
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
+
+}
+
+/* Linkjes states*/ 
+
+ol>li>p>a:hover {
+  font-size: var(--fotoTekstIndie);
+  transition: 0.3s; 
+}
+
+ol>li>p>a:active {
+  font: var(--fotoTekstIndie);
+  color: var(--secondFontColor); 
+}
+
+a>li>p>a:focus{
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
+  font-size: var(--fotoTekstIndie);
+  transition: 0.3s; 
+}
+
+/*tekst in foto's states */ 
+
+ul>li>a:hover {
+  font-size: var(--agendakop);
+}
+
+ul>li>a:focus {
+  color: var(--selected)
+}
+
+ul>li>a:focus {
+  box-shadow: 2px 2px 2px var(--selected);
+  background-color: var(--secondFontColor);
+}

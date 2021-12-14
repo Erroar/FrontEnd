@@ -172,7 +172,7 @@ Verantwoording Surface plane:
 De dark mode zou moeten werken, alleen hij werkt niet, ik heb alles meerdere keren gecheckt en hieronder staan de foto’s. Als ik werkbaar zou krijgen zou dit betekenen dat ik direct een groot stuk van mijn Surface Plane gehaald zou hebben. 
  
 <img scr="images/JSDarkmode" alt="JS code Darkmode">
-<img scr="images/CSSDarkmode" alt="CSS code darkmode"
+<img scr="images/CSSDarkmode" alt="CSS code darkmode">
 
 2.	Kerst thema; er is een kerst thema op de homepage 
 Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 
@@ -206,6 +206,7 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
  Hier is de Indiestad pagina: 
  
  <img scr="images/finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina">
+ <img scr="finalScreenshotIndiestad.png"
  
  Hier is de extra toegankelijke pagina: 
  

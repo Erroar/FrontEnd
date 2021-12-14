@@ -112,28 +112,31 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Spasmes/Parkinson
+Korte omschrijving: het menu is te lastig te bedienen door de kleine knoppen. Verder is het menu redelijk scrollbaar, de plaatjes zijn klikbaar, het menu zou ook breder kunnen, maar is bereikbaar. 
+Oplossing: het navigatie menu moet groter: meer padding zodat het klikgedeelte makkelijker klikbaar is.  
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Concentratieproblemen
+Omschrijving: de website was redelijk behapbaar, maar in de foto’s staat teveel tekst waardoor je het niet goed kan lezen. 
+Oplossing: kleinere en korte tekst op de afbeeldingen, zodat het niet een te grote lap tekst wordt. Ook eventueel grotere contrasten bij de letters, zodat je direct de aandacht hierop kan vestigen. 
+ 
+
+#### Verschillende visuele beperkingen. 
+Omschrijving: de meeste dingen gingen wel oké, alleen de agenda was vrijwel niet leesbaar. De contrasten in de agenda waren ook redelijk minimaal. 
+Oplossing: de fonts en de contrasten moeten groter. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Screenreader
+Kort omschrijving: de screenreader gaat continu terug naar het hamburger menu en daardoor wordt het chaos. De puntjes achter de afbeeldingen bij de tekst zijn niet duidelijk. 
+Oplossing: je zou lees meer achter alles kunnen zetten of je kan de teksten korter maken in de afbeeldingen en agenda’s. Je zou ook een speciale functie kunnen neerzetten die de tekst enkel visueel afkort. 
+ 
+ 
+#### Toetsenboard
+Kort omschrijving: In principe deed de tab-toets prima zijn werk. De tab selector moet echter wel duidelijker zijn. 
+Oplossing: de focus state moet meer opvallen en heeft een groter contrast nodig. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 

@@ -189,11 +189,45 @@ hier screenshot(s) van je eindresultaat
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
+HULP BIJ CODEREN 
+Voor het aangeven van de datum in de agenda: 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+Slider: 
+- DLO FED week 1 positioneren opdracht 1. 
+ 
+Hamburger menu: 
+- DLO FED week 2 JS opdracht 2 (humpty) 
+- 
+AFBEELDINGEN IN DE WEBSITE 
+Paradiso Home (index.html)
+CloZee, Paradiso home, article 1: 
+https://www.bandsintown.com/a/2772146-clozee
 
-1. bron 1
-2. bron 2
-3. ...
+Mathew Halsall, Paradiso home article 2: 
+https://www.skiddle.com/artists/matthew-halsall-123507516/ 
+
+Indiestad (indie.html)
+
+Pond band, Indiestad, OL:first-of-type>li:first-of-type. pondBand.png: 
+https://www.infinite-jest.it/pond-il-nuovo-album-della-band-si-intitola-9-ascolta-il-singolo/ 
+
+king Hannah: OL:first-of-type> li:nth-of-type(2), kingHannahBand.jpg
+https://beatsperminute.com/king-hannahs-unspoken-apprehensions-crackle-into-life-on-the-glowing-meal-deal/ 
+
+Flyte, Indiestad, OL:first-of-type> li:nth-of-type(4), flyeBand.jpg
+https://www.coggles.com/life/culture/flyte/ 
+
+Sofie Winterson, 
+https://waterpop.nl/winderig-waterpop-feest-voor-het-hele-gezin/dsc_6454-border/ 
+
+Pip Blom, Indiestad,  
+https://www.rollingstone.com/music/music-features/pip-blom-boat-interview-839541/ 
+
+Luistertips, Indiestad, article 1, BandTipsNielsMooij.jpg. 
+Memes band, ol:first-of-type>li:nth of type(3), memesBand.png
+Luistertips, Indiestad, ol:nth-of-type(2)>li:nth-of-type(3), bandLuistertips.png
+https://www.paradiso.nl/nl/landing/indiestad/721/indiestad/604/
+
 
 </details>

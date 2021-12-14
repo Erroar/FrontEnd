@@ -174,13 +174,75 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details>
 <summary>uitwerken voor eindgesprek</summary>
+ 
+Verantwoording Surface plane: 
+
+1.	Dark mode: er is een darkmode functie op de erg lichte pagina van Indiestad. 
+De dark mode zou moeten werken, alleen hij werkt niet, ik heb alles meerdere keren gecheckt en hieronder staan de foto’s. Als ik werkbaar zou krijgen zou dit betekenen dat ik direct een groot stuk van mijn Surface Plane gehaald zou hebben. 
+
+2.	Kerst thema; er is een kerst thema op de homepage 
+Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 
+
+3.	Toegankelijkheid: door op de knop te drukken ‘Paradiso toegankelijk’, gaat de site in een modus waarbij de contrasten hoog worden, de knoppen groot en de screenreaders het nog beter doen. Ik heb hier een aparte pagina voor gemaakt, omdat de lettergrote het vaak niet goed doet bij het design en ik wilde graag het design van de website behouden. Ik vind het echter toch interessant en heb daarom gekozen om een aparte pagina hiervoor te maken. 
+
+Bron: https://webaim.org/resources/contrastchecker/ 
+Ik heb mijn contrast ratio gecheckt en ik heb daarom de contrast ratio nog hoger gemaakt voor de toegankelijke website. Ik heb de tweede font veranderd van #99ccff naar #E0F1FF. Hierdoor is het contrast groter (07.07:1) en voldoet die niet enkel aan de richtlijnen van WCAG AA zoals de normale website, maar ook aan level WCAG AAA. 
+
+Daarnaast heb ik ook de img gefilterd voor een groter contrast met de tekst heeft, deze functie heb ik gevonden via: 
+https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ 
+
+4.	Hamburger menu
+Mijn grote trots van deze website is het hamburger menu. Deze werkt interactief: de knop is veranderd van vorm en het menu rolt op een rustige en fijne manier uit. Ik heb deze gemaakt door middel van het combineren van een aantal oefeningen in de lessen. De knop heb ik zichtbaar gehouden door de Z-index te vergroten. 
+
+5.	Selectoren
+Ik heb geprobeerd om genoeg selectoren toe te voegen aan aan alle knoppen. 
+
+6.	Animatie
+Ik wilde eigenlijk nog een animatie toevoegen zodra men klikt of hovert over het kerstthema, hier ben ik echter helaas niet aan toe gekomen, aangezien ik problemen had met de darkmode.  
+
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+1.	Dark mode: er is een darkmode functie op de erg lichte pagina van Indiestad. 
+De dark mode zou moeten werken, alleen hij werkt niet, ik heb alles meerdere keren gecheckt en hieronder staan de foto’s. Als ik werkbaar zou krijgen zou dit betekenen dat ik direct een groot stuk van mijn Surface Plane gehaald zou hebben. 
+
+2.	Kerst thema; er is een kerst thema op de homepage 
+Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 
+
+3.	Toegankelijkheid: door op de knop te drukken ‘Paradiso toegankelijk’, gaat de site in een modus waarbij de contrasten hoog worden, de knoppen groot en de screenreaders het nog beter doen. Ik heb hier een aparte pagina voor gemaakt, omdat de lettergrote het vaak niet goed doet bij het design en ik wilde graag het design van de website behouden. Ik vind het echter toch interessant en heb daarom gekozen om een aparte pagina hiervoor te maken. 
+
+Bron: https://webaim.org/resources/contrastchecker/ 
+Ik heb mijn contrast ratio gecheckt en ik heb daarom de contrast ratio nog hoger gemaakt voor de toegankelijke website. Ik heb de tweede font veranderd van #99ccff naar #E0F1FF. Hierdoor is het contrast groter (07.07:1) en voldoet die niet enkel aan de richtlijnen van WCAG AA zoals de normale website, maar ook aan level WCAG AAA. 
+
+Daarnaast heb ik ook de img gefilterd voor een groter contrast met de tekst heeft, deze functie heb ik gevonden via: 
+https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ 
+
+4.	Hamburger menu
+Mijn grote trots van deze website is het hamburger menu. Deze werkt interactief: de knop is veranderd van vorm en het menu rolt op een rustige en fijne manier uit. Ik heb deze gemaakt door middel van het combineren van een aantal oefeningen in de lessen. De knop heb ik zichtbaar gehouden door de Z-index te vergroten. 
+
+5.	Selectoren
+Ik heb geprobeerd om genoeg selectoren toe te voegen aan aan alle knoppen. 
+
+6.	Animatie
+Ik wilde eigenlijk nog een animatie toevoegen zodra men klikt of hovert over het kerstthema, hier ben ik echter helaas niet aan toe gekomen, aangezien ik problemen had met de darkmode.  
+
+Stand van zaken: 
+Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb het echter niet compleet kunnen afmaken zoals ik wilde, ik wilde graag een werkende dark mode en een werkend kerst thema. Daarnaast had ik nog graag iets met een kerst animatie willen doen. De site ziet er verder prima uit, het is semantisch correct html, er is gebruik gemaakt van costum properties en de website ziet er mooi uit. Ik heb alleen geen idee waarom de dark mode en het kerst thema niet werkt. Hierboven zijn ook codes te zien van deze dark mode. Ik merkte verder wel dat het coderen erg goed ging en leuk was in dit blok en dat je soms met een paar regeltjes code iets moois kan maken (of alles kan verpesten). Ik voel nu wel meer vrijheid tijdens het coderen, doordat ik er dit blok zo intensief mee bezig was. 
+
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+ Hier is de home pagina: 
+ <img src="finalParadisoHome" alt="screenshot van frontend Paradiso">
+ <img scr="finalParadisoHomecode" alt="screenshot van de code ">
+ 
+ Hier is de Indiestad pagina: 
+ 
+ <img scr="finalIndie"
+ 
+ Hier is de extra toegankelijke pagina: 
+ 
+<img src="finalToegang" alt="screenshot van de frontend van de extra toegankelijke Paradiso "
+ 
 
 </details>
 

@@ -205,7 +205,8 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
  Hier is de home pagina: 
  <img src="images/finalScreenshotParadisoHome.png" alt="screenshot van frontend Paradiso">
  
- Hier is de Indiestad pagina, ik heb nooit last met verwijzen naar afbeeldingen, maar wel hier in Github, dus ik weet niet wat het is, maar de afbeelding staat ook in de images map als finalScreenshotIndiestad.png. 
+ Hier is de Indiestad pagina. 
+ Ik heb nooit last met verwijzen naar afbeeldingen, maar wel hier in Github, dus ik weet niet wat het is, maar de afbeelding staat ook in de images map als finalScreenshotIndiestad.png. 
  
  <img scr="images/finalScreenshotIndiestad.png" alt="screenshot van Indiestad Paradiso">
  

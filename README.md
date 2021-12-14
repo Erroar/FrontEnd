@@ -95,7 +95,7 @@ Momenteel werkt mijn website redelijk en is het ook om aan te zien, er moet echt
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Ik heb hier tijdens de meeting vooral meegekeken en tijdens de meeting ook nog meegekregen hoe ik een laad animatie kon maken. Hier kon ik echter geen tijd meer in steken, omdat ik eerst flink moest werken aan de positionering en de CSS van mijn website. 
 
 
 </details>
@@ -107,7 +107,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -116,24 +115,19 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 Korte omschrijving: het menu is te lastig te bedienen door de kleine knoppen. Verder is het menu redelijk scrollbaar, de plaatjes zijn klikbaar, het menu zou ook breder kunnen, maar is bereikbaar. 
 Oplossing: het navigatie menu moet groter: meer padding zodat het klikgedeelte makkelijker klikbaar is.  
 
-
-
 #### Concentratieproblemen
 Omschrijving: de website was redelijk behapbaar, maar in de foto’s staat teveel tekst waardoor je het niet goed kan lezen. 
 Oplossing: kleinere en korte tekst op de afbeeldingen, zodat het niet een te grote lap tekst wordt. Ook eventueel grotere contrasten bij de letters, zodat je direct de aandacht hierop kan vestigen. 
- 
 
 #### Verschillende visuele beperkingen. 
 Omschrijving: de meeste dingen gingen wel oké, alleen de agenda was vrijwel niet leesbaar. De contrasten in de agenda waren ook redelijk minimaal. 
 Oplossing: de fonts en de contrasten moeten groter. 
-
-
+ 
 #### Screenreader
 Kort omschrijving: de screenreader gaat continu terug naar het hamburger menu en daardoor wordt het chaos. De puntjes achter de afbeeldingen bij de tekst zijn niet duidelijk. 
 Oplossing: je zou lees meer achter alles kunnen zetten of je kan de teksten korter maken in de afbeeldingen en agenda’s. Je zou ook een speciale functie kunnen neerzetten die de tekst enkel visueel afkort. 
  
- 
-#### Toetsenboard
+#### Tab-toets
 Kort omschrijving: In principe deed de tab-toets prima zijn werk. De tab selector moet echter wel duidelijker zijn. 
 Oplossing: de focus state moet meer opvallen en heeft een groter contrast nodig. 
 
@@ -147,7 +141,6 @@ Oplossing: de focus state moet meer opvallen en heeft een groter contrast nodig.
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
 Momenteel is mijn index pagina vrijwel klaar. Er moet enkel gewerkt worden aan een paar kleine details. Ik heb deze week ook de complete Indiestad pagina aangemaakt. Hier zijn nog enkele problemen: 
@@ -157,7 +150,6 @@ Momenteel is mijn index pagina vrijwel klaar. Er moet enkel gewerkt worden aan e
  - Ik moet de tekst goed kunnen positioneren in de artikelen. 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - De slider is terug te vinden in oefening 1 van positioneren. Het is simpel op te lossen met display flex en overflow auto. 
 - Sanne heeft mij aangeraden om 3 verschillende CSS pagina's aan te maken, ik hierna direct de Indiestad opmaak gescheiden van de Index opmaak. Ik heb er echter maar 2 pagina's van gemaakt omdat de Index en Indiestad pagina's nogal van elkaar verschillen. 
@@ -173,37 +165,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
  
 Verantwoording Surface plane: 
 
 1.	Dark mode: er is een darkmode functie op de erg lichte pagina van Indiestad. 
 De dark mode zou moeten werken, alleen hij werkt niet, ik heb alles meerdere keren gecheckt en hieronder staan de foto’s. Als ik werkbaar zou krijgen zou dit betekenen dat ik direct een groot stuk van mijn Surface Plane gehaald zou hebben. 
-
-2.	Kerst thema; er is een kerst thema op de homepage 
-Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 
-
-3.	Toegankelijkheid: door op de knop te drukken ‘Paradiso toegankelijk’, gaat de site in een modus waarbij de contrasten hoog worden, de knoppen groot en de screenreaders het nog beter doen. Ik heb hier een aparte pagina voor gemaakt, omdat de lettergrote het vaak niet goed doet bij het design en ik wilde graag het design van de website behouden. Ik vind het echter toch interessant en heb daarom gekozen om een aparte pagina hiervoor te maken. 
-
-Bron: https://webaim.org/resources/contrastchecker/ 
-Ik heb mijn contrast ratio gecheckt en ik heb daarom de contrast ratio nog hoger gemaakt voor de toegankelijke website. Ik heb de tweede font veranderd van #99ccff naar #E0F1FF. Hierdoor is het contrast groter (07.07:1) en voldoet die niet enkel aan de richtlijnen van WCAG AA zoals de normale website, maar ook aan level WCAG AAA. 
-
-Daarnaast heb ik ook de img gefilterd voor een groter contrast met de tekst heeft, deze functie heb ik gevonden via: 
-https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ 
-
-4.	Hamburger menu
-Mijn grote trots van deze website is het hamburger menu. Deze werkt interactief: de knop is veranderd van vorm en het menu rolt op een rustige en fijne manier uit. Ik heb deze gemaakt door middel van het combineren van een aantal oefeningen in de lessen. De knop heb ik zichtbaar gehouden door de Z-index te vergroten. 
-
-5.	Selectoren
-Ik heb geprobeerd om genoeg selectoren toe te voegen aan aan alle knoppen. 
-
-6.	Animatie
-Ik wilde eigenlijk nog een animatie toevoegen zodra men klikt of hovert over het kerstthema, hier ben ik echter helaas niet aan toe gekomen, aangezien ik problemen had met de darkmode.  
-
-
-### Stand van zaken
-1.	Dark mode: er is een darkmode functie op de erg lichte pagina van Indiestad. 
-De dark mode zou moeten werken, alleen hij werkt niet, ik heb alles meerdere keren gecheckt en hieronder staan de foto’s. Als ik werkbaar zou krijgen zou dit betekenen dat ik direct een groot stuk van mijn Surface Plane gehaald zou hebben. 
+ 
+<img scr="images/JSDarkmode" alt="JS code Darkmode">
+<img scr="images/CSSDarkmode" alt="CSS code darkmode"
 
 2.	Kerst thema; er is een kerst thema op de homepage 
 Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 
@@ -253,17 +222,18 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
-HULP BIJ CODEREN 
-Voor het aangeven van de datum in de agenda: 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
 
-Slider: 
-- DLO FED week 1 positioneren opdracht 1. 
- 
-Hamburger menu: 
-- DLO FED week 2 JS opdracht 2 (humpty) 
-- 
-AFBEELDINGEN IN DE WEBSITE 
+Bronnen tijdens het coderen: 
+Linken naar eigen html bestand: https://www.w3schools.com/html/html_links.asp 
+Hamburger menu: https://codepen.io/shooft/pen/bGoNMpP?editors=0110 
+Het donker filteren van een afbeelding: https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ 
+Het checken van contrast ratio: https://webaim.org/resources/contrastchecker/
+Het gebruik van de Z-index: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+Het maken van een scrollbaar menu (DLO): https://codepen.io/shooft/pen/vYZKQPX 
+De poging tot een dark mode (DLO): https://codepen.io/shooft/pen/ExXRLXL 
+Het aangeven van de data in de agenda: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+
+
 Paradiso Home (index.html)
 CloZee, Paradiso home, article 1: 
 https://www.bandsintown.com/a/2772146-clozee
@@ -291,7 +261,9 @@ https://www.rollingstone.com/music/music-features/pip-blom-boat-interview-839541
 Luistertips, Indiestad, article 1, BandTipsNielsMooij.jpg. 
 Memes band, ol:first-of-type>li:nth of type(3), memesBand.png
 Luistertips, Indiestad, ol:nth-of-type(2)>li:nth-of-type(3), bandLuistertips.png
+Social media logo’s, spotfify.png, twitter.png, insta.png, facebook.png
 https://www.paradiso.nl/nl/landing/indiestad/721/indiestad/604/
+
 
 
 </details>

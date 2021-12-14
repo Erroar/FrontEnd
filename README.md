@@ -232,15 +232,15 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
 ### Screenshot(s)
 
  Hier is de home pagina: 
- <img src="finalScreenshotParadisoHome.png" alt="screenshot van frontend Paradiso">
+ <img src="images/finalScreenshotParadisoHome.png" alt="screenshot van frontend Paradiso">
  
  Hier is de Indiestad pagina: 
  
- <img scr="finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina">
+ <img scr="images/finalScreenshotIndiestad.png" alt="Screenshot van Indiestad frontend pagina">
  
  Hier is de extra toegankelijke pagina: 
  
-<img src="finalScreenshotParadisoToegang.png" alt="screenshot van de frontend van de extra toegankelijke Paradiso">
+<img src="images/finalScreenshotParadisoToegang.png" alt="screenshot van de frontend van de extra toegankelijke Paradiso">
  
 
 </details>

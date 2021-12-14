@@ -39,12 +39,12 @@ Surface plane
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Paradiso
+<img src="images/ParadisoHomeScreenshot.png" width="375px" alt="Paradiso website ">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/ParadisoIndieScreenshot.png" width="375px" alt="Indiestad html analyse">
  
 </details>
 
@@ -56,13 +56,10 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/htmlAnalyseHome.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/htmlAnalyseMenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -76,26 +73,11 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Momenteel ben ik nog bezig met het opbouwen van de HTML. Ik vind het lastig om dit semantisch correct te doen, omdat Paradiso bestaat uit velen kleine stukjes tekst. 
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Aangezien ik niet bij de meeting heb kunnen zijn ben heb ik de studentassistent bericht. Deanna en ik hebben het besproken en uiteindelijk heb ik besloten om er in mijn HTML gebruik te maken van velen List Items, Paragraven en Headings. Hierdoor is het makkelijker om elementen te selecteren, maar is het alsnog semantische correct. Daarnaast heb ik besloten om van de filters bij de agenda een NAV te maken in plaats van losse buttons, het helpt namelijk bij het navigeren en brengt je naar een ander deel van de agenda. 
 
 </details>
 
@@ -109,26 +91,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Momenteel werkt mijn website redelijk en is het ook om aan te zien, er moet echter nog wel gewerkt worden aan positionering en andere details. 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
@@ -179,26 +147,19 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Momenteel is mijn index pagina vrijwel klaar. Er moet enkel gewerkt worden aan een paar kleine details. Ik heb deze week ook de complete Indiestad pagina aangemaakt. Hier zijn nog enkele problemen: 
+ - Er moet een slider komen die op zichzelf werkt. 
+ - Mijn selectoren worden erg lang. 
+ - Ik moet de agendapunten in de Paradiso pagina aan de rechterkant krijgen. 
+ - Ik moet de tekst goed kunnen positioneren in de artikelen. 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De slider is terug te vinden in oefening 1 van positioneren. Het is simpel op te lossen met display flex en overflow auto. 
+- Sanne heeft mij aangeraden om 3 verschillende CSS pagina's aan te maken, ik hierna direct de Indiestad opmaak gescheiden van de Index opmaak. Ik heb er echter maar 2 pagina's van gemaakt omdat de Index en Indiestad pagina's nogal van elkaar verschillen. 
+ - De agendapunten kunnen aan de rechterkant geplaatst worden door de elementen te verdelen in header en P
+ - De tekst is makkelijk te positioneren door middel van flexbox. Ik had daarnaast een apart <time> element gemaakt voor de data, dit was goed alleen hier moesten nog data aan toegevoegd worden die die computer kan lezen. 
 
 </details>
 

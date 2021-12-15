@@ -174,7 +174,7 @@ Ik weet niet wat het is, ik heb normaal nooit moeite met het verwijzen naar afbe
  
 <img src="images/darkmodus.JS.png" alt="JS code Darkmode">
  
-<img src="images/darkmodus.CSS.png" alt="CSS code darkmode">
+<img src="images/darkmodus.css.png" alt="CSS code darkmode">
 
 2.	Kerst thema; er is een kerst thema op de homepage 
 Op de index pagina hoort er een prachtig kerst thema te laden, zodra je dit aangeeft bij de checkbox. Dit is helaas niet het geval aangezien de Javascript niet aansluit op mijn pagina, het probleem ligt waarschijnlijk op dezelfde plek als de darkmodus. Zodra ik dit werkend krijgt, zal er een prachtig kerstthema tevoorschijn komen. 

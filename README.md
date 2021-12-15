@@ -210,7 +210,6 @@ Momenteel ziet mijn website er goed uit en is die gebruiksvriendelijk. Ik heb he
  
  <img src="images/finalScreenshotIndiestad.png" alt="screenshot van Indiestad Paradiso">
  
- <img scr="./images/finalScreenshotIndiestad.png" alt="screenshot van Indiestad Paradiso">
  
  Hier is de extra toegankelijke pagina: 
  
